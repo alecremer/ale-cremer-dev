@@ -1,5 +1,21 @@
+html{
+
+  /* background-color: #282c34; */
+
+}
+
+.btn{
+  color: white;
+  border-radius: 1rem;
+  background-color: rgb(234 88 12);
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.7rem;
+}
+
 .App {
   text-align: center;
+  width: 100vw;
 }
 
 .App-logo {
