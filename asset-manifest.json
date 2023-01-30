@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.24fdeea5.css",
-    "main.js": "/landing-page/static/js/main.87d4a3a2.js",
+    "main.css": "/landing-page/static/css/main.2bb47235.css",
+    "main.js": "/landing-page/static/js/main.c8113c35.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/SnowMountains.png": "/landing-page/static/media/SnowMountains.9a67468c9a6bd19bf9e1.png",
     "static/media/mush_extended.png": "/landing-page/static/media/mush_extended.ec71222f4b5f351ccb48.png",
@@ -9,12 +9,12 @@
     "static/media/B5_Green2.png": "/landing-page/static/media/B5_Green2.db2ac8fe586e3da682bf.png",
     "static/media/Flowers_mountain_blue_sky_grass_pixel.png": "/landing-page/static/media/Flowers_mountain_blue_sky_grass_pixel.6cfc9c7c66c7d59e9139.png",
     "index.html": "/landing-page/index.html",
-    "main.24fdeea5.css.map": "/landing-page/static/css/main.24fdeea5.css.map",
-    "main.87d4a3a2.js.map": "/landing-page/static/js/main.87d4a3a2.js.map",
+    "main.2bb47235.css.map": "/landing-page/static/css/main.2bb47235.css.map",
+    "main.c8113c35.js.map": "/landing-page/static/js/main.c8113c35.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24fdeea5.css",
-    "static/js/main.87d4a3a2.js"
+    "static/css/main.2bb47235.css",
+    "static/js/main.c8113c35.js"
   ]
 }
