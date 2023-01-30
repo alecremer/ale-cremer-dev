@@ -1,7 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html{
 
   /* background-color: #282c34; */
 
+}
+
+.card{
+  /* @apply bg-slate-200 rounded-xl text-left p-5 mt-5 m-2 */
+  @apply bg-slate-100 rounded-xl text-left p-5 mt-5 m-2
+}
+
+.card-title{
+  @apply text-3xl font-semibold
+}
+
+.card-text{
+  @apply text-xl pt-5 
+}
+
+.carousel-images__text{
+  @apply text-white absolute bg-neutral-900/70 p-1 rounded-2xl text-sm
+}
+
+.carousel-images{
+  @apply block sm:h-full md:h-full lg:w-3/4;
+  background-color: rgb(234 88 12);
+  
 }
 
 .btn{
