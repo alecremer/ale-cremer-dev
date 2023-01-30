@@ -4,6 +4,8 @@ import "../App.css";
 import CardView from "../components/CardView";
 import { useInView } from "react-intersection-observer"
 import { InView } from "react-intersection-observer";
+import img_1 from '../assets/images/B5_Green2.png'
+
 
 function HomePage() {
 
@@ -32,7 +34,7 @@ function HomePage() {
 				<button className="btn">Confira nosso portfólio</button>
 			</div>
 
-			<div className="pt-20 lg:flex-row md:flex-col xl:w-full 2xl:w-4/5 xl:ml-1 xl:mr-1 flex  justify-center ">
+			<div className="pt-20 lg:flex-row md:flex-col xl:w-full 2xl:w-4/5 xl:pl-10 xl:pr-10 flex  justify-center ">
 
 				<div className=" text-left p-5 mt-5 m-2">
 
@@ -59,6 +61,14 @@ function HomePage() {
 
 
 			</div>
+			
+			<div className="flex justify-center xl:p-4 pt-20 ">
+				<a className=" 2xl:w-5/6 xl:w-full rounded-2xl shadow-2xl shadow-black md:h-96 flex flex-col"  href="https://www.artstation.com/alecremer">
+					<img className="flex-1 rounded-2xl rounded-b-none object-cover w-full h-full" src={img_1} />
+					<div className="bg-slate-700 rounded-b-2xl p-3 text-white text-xl">Portfolio de artes 3D</div>
+				</a>
+			</div>
+
 
 			<div className="bg-neutral-900 text-left p-5 mt-5 flex justify-center w-full">
 
