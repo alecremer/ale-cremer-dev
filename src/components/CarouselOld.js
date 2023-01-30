@@ -4,7 +4,7 @@ import img_2 from '../assets/images/code.jpg'
 import img_3 from '../assets/images/mush_extended.png'
 import img_4 from '../assets/images/Flowers_mountain_blue_sky_grass_pixel.png'
 
-export default function Carousel() {
+export default function CarouselOld() {
   return (
     <div>
 
