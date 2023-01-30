@@ -29,7 +29,8 @@ function HomePage() {
 				<button className="btn">Confira nosso portfólio</button>
 			</div>
 
-			<div className="pt-20 lg:flex-row md:flex-col xl:w-full 2xl:w-4/5 xl:pl-10 xl:pr-10 flex  justify-center ">
+			{/* <div className="pt-20 lg:flex-row md:flex-col xl:w-full 2xl:w-4/5 xl:pl-10 xl:pr-10 flex  justify-center "> */}
+			<div className="pt-20 lg:flex-row md:flex-col xl:w-full 2xl:ml-32 2xl:mr-32 xl:pl-10 xl:pr-10 flex  justify-center ">
 
 				<div className=" text-left p-5 mt-5 m-2">
 
@@ -63,7 +64,6 @@ function HomePage() {
 
 			<div className="grid grid-cols-1 grid-flow-row-dense gap-y-20 md:p-10 2xl:p-20">
 				<h2 className="text-left text-5xl font-semibold w-full ">Confira nossos portfolios</h2>
-
 					<CardViewLarge img={img_1} color={"bg-orange-700"} href={"https://www.artstation.com/alecremer"} label="Portfolio de artes em geral"/>
 					<CardViewLarge img={img_2} color={"bg-slate-700"} href={"https://www.artstation.com/alecremer"} label="Artes 3D"/>
 					<CardViewLarge img={img_3} color={"bg-slate-700"} href={"https://www.artstation.com/alecremer"} label="Portfolio pixel art"/>
