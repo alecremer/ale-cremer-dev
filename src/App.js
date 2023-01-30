@@ -1,13 +1,13 @@
 import './App.css';
-import HomePage  from './views/HomePage'
+import HomePage from './views/HomePage';
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <div className='text-left pl-2 h-8 flex items-center'>
-        Ale Cremer - Dev
-      </div>
-      <HomePage/>
+      <Routes >
+        <Route element = { <HomePage/> }  path="/" />
+      </Routes>
     </div>
   );
 }

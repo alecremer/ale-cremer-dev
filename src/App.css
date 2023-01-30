@@ -20,14 +20,14 @@ html{
   }
 }
 
-@keyframes fadein {
+@keyframes fadeinbot {
   0% { opacity: 0; margin-bottom: 100%;}
   100% { opacity: 1; margin-bottom: 0.5rem;}
 }
 
-@keyframes fadeinside {
-  0% { opacity: 0; margin-right: 500px;}
-  100% { opacity: 1; margin-right: 0px;}
+@keyframes fadein {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
 }
 
 .transparent{
@@ -42,14 +42,14 @@ html{
   @apply md:h-96;
 }
 .animation-1{
-  animation-name: fadein;
+  animation-name: fadeinbot;
   animation-duration: 3s;
   animation-iteration-count: 1
 
 }
 
-.fade-in-side{
-  animation-name: fadeinside;
+.fade-in{
+  animation-name: fadein;
   animation-duration: 3s;
   animation-iteration-count: 1
 

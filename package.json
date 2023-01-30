@@ -13,6 +13,8 @@
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.4.1",
     "react-responsive-carousel": "^3.2.23",
+    "react-router": "^6.8.0",
+    "react-router-dom": "^6.8.0",
     "react-scripts": "^5.0.1",
     "tw-elements": "^1.0.0-alpha13",
     "web-vitals": "^2.1.4"
