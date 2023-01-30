@@ -25,6 +25,11 @@ html{
   100% { opacity: 1; margin-bottom: 0.5rem;}
 }
 
+@keyframes fadeinside {
+  0% { opacity: 0; margin-right: 500px;}
+  100% { opacity: 1; margin-right: 0px;}
+}
+
 .transparent{
   opacity: 0;
 }
@@ -41,6 +46,17 @@ html{
   animation-duration: 3s;
   animation-iteration-count: 1
 
+}
+
+.fade-in-side{
+  animation-name: fadeinside;
+  animation-duration: 3s;
+  animation-iteration-count: 1
+
+}
+
+.card-lg{
+  @apply w-full rounded-2xl shadow-2xl shadow-black h-96 flex flex-col ;
 }
 
 .card{

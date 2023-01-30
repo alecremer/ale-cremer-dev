@@ -2,22 +2,17 @@
 import Carousel from "../components/Carousel";
 import "../App.css";
 import CardView from "../components/CardView";
+import CardViewLarge from "../components/CardViewLarge";
 import { useInView } from "react-intersection-observer"
 import { InView } from "react-intersection-observer";
-import img_1 from '../assets/images/B5_Green2.png'
-
+import img_1 from '../assets/images/B5_Green2.png';
+import img_2 from '../assets/images/mush_extended.png';
+import img_3 from '../assets/images/Flowers_mountain_blue_sky_grass_pixel.png';
+import img_4 from '../assets/images/SnowMountains.png';
 
 function HomePage() {
 
 
-	const th = 0.5;
-
-	const [card_0, inView_0] = useInView({ threshold: th });
-	const [card_1, inView_1] = useInView({ threshold: th });
-	const [card_2, inView_2] = useInView({ threshold: th });
-	const [card_3, inView_3] = useInView({ threshold: th });
-	const [card_4, inView_4] = useInView({ threshold: th });
-	const [card_5, inView_5] = useInView({ threshold: th });
 
 
 
@@ -60,17 +55,26 @@ function HomePage() {
 				</div>
 
 
-			</div>
-			
-			<div className="flex justify-center xl:p-4 pt-20 ">
-				<a className=" 2xl:w-5/6 xl:w-full rounded-2xl shadow-2xl shadow-black md:h-96 flex flex-col"  href="https://www.artstation.com/alecremer">
-					<img className="flex-1 rounded-2xl rounded-b-none object-cover w-full h-full" src={img_1} />
-					<div className="bg-slate-700 rounded-b-2xl p-3 text-white text-xl">Portfolio de artes 3D</div>
-				</a>
+
 			</div>
 
 
-			<div className="bg-neutral-900 text-left p-5 mt-5 flex justify-center w-full">
+				
+
+			<div className="grid grid-cols-1 grid-flow-row-dense gap-y-20 md:p-10 2xl:p-20">
+				<h2 className="text-left text-5xl font-semibold w-full ">Confira nossos portfolios</h2>
+
+					<CardViewLarge img={img_1} color={"bg-orange-700"} href={"https://www.artstation.com/alecremer"} label="Portfolio de artes em geral"/>
+					<CardViewLarge img={img_2} color={"bg-slate-700"} href={"https://www.artstation.com/alecremer"} label="Artes 3D"/>
+					<CardViewLarge img={img_3} color={"bg-slate-700"} href={"https://www.artstation.com/alecremer"} label="Portfolio pixel art"/>
+					<CardViewLarge img={img_4} color={"bg-slate-700"} href={"https://www.artstation.com/alecremer"} label="Portfolio de ilustrações"/>
+
+				
+
+			</div>
+
+
+			<div className="bg-neutral-900 text-left p-5 mt-5 mt-44 flex justify-center w-full">
 
 
 				{/* <h2 className="bg-orange-600 text-white p-3 rounded-full font-semibold text-2xl text-center">Confira nossos serviços</h2> */}
