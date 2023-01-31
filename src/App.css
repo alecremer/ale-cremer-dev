@@ -43,20 +43,20 @@ html{
 }
 .animation-1{
   animation-name: fadeinbot;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: 1
 
 }
 
 .fade-in{
   animation-name: fadein;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: 1
 
 }
 
 .card-lg{
-  @apply w-full rounded-2xl shadow-2xl shadow-black h-96 flex flex-col ;
+  @apply w-full rounded-2xl shadow-2xl shadow-black md:shadow-none h-96 flex flex-col relative;
 }
 
 .card{
