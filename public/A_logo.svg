@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 500px;
+        text-anchor: middle;
+        font-family: Arial;
+      }
+
+      .cls-1 {
+        fill: #336fb3;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <text id="A" class="cls-1" x="236.111" y="429.077"><tspan x="236.111">A</tspan></text>
+  <text id="A_copiar" data-name="A copiar" class="cls-2" x="229.863" y="429.223"><tspan x="229.863">A</tspan></text>
+</svg>
