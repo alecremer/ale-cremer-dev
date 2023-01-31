@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.22793a8a.css",
-    "main.js": "/landing-page/static/js/main.d4571cb3.js",
+    "main.css": "/landing-page/static/css/main.2f0278bd.css",
+    "main.js": "/landing-page/static/js/main.2525a3e3.js",
     "static/js/787.6606bfd5.chunk.js": "/landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/SnowMountains.png": "/landing-page/static/media/SnowMountains.9a67468c9a6bd19bf9e1.png",
     "static/media/LivingRoom.png": "/landing-page/static/media/LivingRoom.11293abe1168c78dfd3f.png",
     "static/media/Evolke.png": "/landing-page/static/media/Evolke.6cc37035994ec920bb73.png",
+    "static/media/B5_Green2_sm.png": "/landing-page/static/media/B5_Green2_sm.254fbfe59eba24a24452.png",
     "static/media/mush_extended.png": "/landing-page/static/media/mush_extended.ec71222f4b5f351ccb48.png",
     "static/media/code.jpg": "/landing-page/static/media/code.76c4344da2119d02a7fb.jpg",
     "static/media/CharacterDesign.png": "/landing-page/static/media/CharacterDesign.33115013bebeed870e89.png",
@@ -13,12 +14,12 @@
     "static/media/Flowers_mountain_blue_sky_grass_pixel.png": "/landing-page/static/media/Flowers_mountain_blue_sky_grass_pixel.6cfc9c7c66c7d59e9139.png",
     "static/media/whatsapp-icon.svg": "/landing-page/static/media/whatsapp-icon.7dc3f3267bee9b39fd8d08466208e48a.svg",
     "index.html": "/landing-page/index.html",
-    "main.22793a8a.css.map": "/landing-page/static/css/main.22793a8a.css.map",
-    "main.d4571cb3.js.map": "/landing-page/static/js/main.d4571cb3.js.map",
+    "main.2f0278bd.css.map": "/landing-page/static/css/main.2f0278bd.css.map",
+    "main.2525a3e3.js.map": "/landing-page/static/js/main.2525a3e3.js.map",
     "787.6606bfd5.chunk.js.map": "/landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22793a8a.css",
-    "static/js/main.d4571cb3.js"
+    "static/css/main.2f0278bd.css",
+    "static/js/main.2525a3e3.js"
   ]
 }
