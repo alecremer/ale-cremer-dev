@@ -30,6 +30,17 @@ html{
   100% { opacity: 1;}
 }
 
+.cover-text{
+
+  @apply text-5xl xl:text-4xl text-white xl:p-0;
+
+}
+.cover-text-container{
+
+  @apply basis-1/3 h-full;
+
+}
+
 .transparent{
   opacity: 0;
 }

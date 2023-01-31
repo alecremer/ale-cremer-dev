@@ -6,6 +6,7 @@ import CardViewLarge from "../components/CardViewLarge";
 import FloatingWhatsapp from "../components/FloatingWhatsapp";
 import { useRef } from "react";
 
+import img_cover from '../assets/images/B5_Green2_sm.png';
 import img_1 from '../assets/images/B5_Green2.png';
 import img_2 from '../assets/images/mush_extended.png';
 import img_3 from '../assets/images/Flowers_mountain_blue_sky_grass_pixel.png';
@@ -26,15 +27,32 @@ function HomePage() {
 
 			<FloatingWhatsapp/>
 
-			<div className="bg-neutral-900 pb-10 w-screen h-96 flex items-center justify-center " >
-				carousel
+			<div style={{background: "#7EB594"}} className="relative pb-10 pl-10 pr-10 w-full h-96 grid xl:grid-flow-col  grid-cols-3 xl:grid-cols-2 md:grid-cols-1 items-center  " >
+				
+				<div className="cover-text-container items-start  order-1 xl:hidden ">
+					<p className='cover-text pt-5 '>O QUE VOCÊ PRECISA PARA</p>
+				</div>
+				
+				<img className="basis-auto  object-cover h-full order-2 md:row-span-full" src={img_cover} />
+				<div className="cover-text-container flex items-end xl:hidden order-3">
+					<p className='cover-text pb-5'>TORNAR SEU PROJETO REALIDADE?</p>
+				</div>
+
+				<div className="cover-text-container items-center pb-24 justify-center text-right 2xl:hidden xl:flex md:hidden order-2">
+					<p className='cover-text md:text-sm'>O QUE VOCÊ PRECISA PARA TORNAR SEU PROJETO REALIDADE?</p>
+				</div>
+
+				<div className="bottom-5 absolute items-center p-5 hidden md:flex" >
+					<p className='text-xl text-white'>O QUE VOCÊ PRECISA PARA TORNAR SEU PROJETO REALIDADE?</p>
+				</div>
+
 			</div>
 
 
 
 			{/* <Carousel /> */}
-			<div className="bg-neutral-900 w-full sm:p-3 md:pt-10 pb-3 ">
-				<button onClick={() => portfoliosRef.current.scrollIntoView()} className="btn">Confira nossos portfólios</button>
+			<div className="bg-neutral-900 w-full p-3 ">
+				<button onClick={() => portfoliosRef.current.scrollIntoView({behavior: "smooth"})} className="btn">Confira nossos portfólios</button>
 			</div>
 
 			{/* <div className="pt-20 lg:flex-row md:flex-col xl:w-full 2xl:w-4/5 xl:pl-10 xl:pr-10 flex  justify-center "> */}
