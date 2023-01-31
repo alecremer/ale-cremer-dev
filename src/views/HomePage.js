@@ -3,8 +3,9 @@ import Carousel from "../components/Carousel";
 import "../App.css";
 import CardView from "../components/CardView";
 import CardViewLarge from "../components/CardViewLarge";
-import { useInView } from "react-intersection-observer"
-import { InView } from "react-intersection-observer";
+import FloatingWhatsapp from "../components/FloatingWhatsapp";
+import { useRef } from "react";
+
 import img_1 from '../assets/images/B5_Green2.png';
 import img_2 from '../assets/images/mush_extended.png';
 import img_3 from '../assets/images/Flowers_mountain_blue_sky_grass_pixel.png';
@@ -13,23 +14,27 @@ import img_5 from '../assets/images/Evolke.png';
 import img_6 from '../assets/images/LivingRoom.png';
 import img_7 from '../assets/images/CharacterDesign.png';
 
+
 function HomePage() {
 
-
+	const portfoliosRef = useRef(null);
 
 
 
 	return (
 		<div className="flex flex-col justify-center items-center">
 
+			<FloatingWhatsapp/>
+
 			<div className="bg-neutral-900 pb-10 w-screen h-96 flex items-center justify-center " >
 				carousel
 			</div>
 
 
+
 			{/* <Carousel /> */}
 			<div className="bg-neutral-900 w-full sm:p-3 md:pt-10 pb-3 ">
-				<button className="btn">Confira nosso portfólio</button>
+				<button onClick={() => portfoliosRef.current.scrollIntoView()} className="btn">Confira nossos portfólios</button>
 			</div>
 
 			{/* <div className="pt-20 lg:flex-row md:flex-col xl:w-full 2xl:w-4/5 xl:pl-10 xl:pr-10 flex  justify-center "> */}
@@ -76,7 +81,7 @@ function HomePage() {
 				
 
 			</div> */}
-			<div className="grid grid-rows-2 grid-flow-row 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-1 md:gap-y-3  gap-10 2xl:p-20 xl:p-10 md:p-2">
+			<div ref={portfoliosRef} className="grid grid-rows-2 grid-flow-row 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-1 md:gap-y-3  gap-10 2xl:p-20 xl:p-10 md:p-2">
 
 				<div className="flex md:justify-center flex-col pl-3">
 					<h2 className="text-left text-5xl md:w-2/3 font-semibold w-full ">Confira nossos portfólios</h2>
@@ -96,11 +101,12 @@ function HomePage() {
 			</div>
 
 
-			<div className="bg-neutral-900 text-left p-5 mt-5 mt-44 flex justify-center w-full">
+			<div className="border-t-2 text-left p-5 mt-5 flex justify-center w-full">
 
 
 				{/* <h2 className="bg-orange-600 text-white p-3 rounded-full font-semibold text-2xl text-center">Confira nossos serviços</h2> */}
-				<button className="btn">Confira nossos serviços</button>
+				{/* <button className="btn">Confira nossos serviços</button> */}
+				<h2 >2023 - © Alexandre Cremer Fonseca</h2>
 			</div>
 
 

@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer"
 import { InView } from "react-intersection-observer";
 
 export default function CardViewLarge(props) {
+
     return (
         <InView triggerOnce={true}>
             {/* <div className="card"> */}

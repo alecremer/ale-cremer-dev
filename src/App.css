@@ -56,7 +56,7 @@ html{
 }
 
 .card-lg{
-  @apply w-full rounded-2xl shadow-2xl shadow-black md:shadow-none h-96 flex flex-col relative;
+  @apply w-full rounded-2xl shadow-2xl shadow-black md:shadow-none h-96 flex flex-col relative break-words;
 }
 
 .card{
@@ -68,7 +68,7 @@ html{
 }
 
 .card-title{
-  @apply text-3xl font-semibold
+  @apply text-3xl font-semibold 
 }
 
 .card-text{
